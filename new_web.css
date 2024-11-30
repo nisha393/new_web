@@ -1,0 +1,599 @@
+.main {
+    display: flex;
+    margin: -8px;
+}
+
+
+/* --------------------------------------WEB START-------------------------------------- */
+
+
+.web {
+    background-color: rgb(255, 246, 163);
+    height: 885px;
+    width: 907px;
+}
+
+.web p {
+    margin: 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub_web {
+    border-radius: 15px;
+    background-color: white;
+    height: auto;
+    width: 650px;
+    margin: 10px 130px 10px 105px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navi {
+    display: flex;
+}
+
+.navi img {
+    margin: 15px 30px;
+    height: 28px;
+    width: 90px;
+}
+
+.navi ul {
+    margin-top: 15px;
+    margin-left: 72px;
+}
+
+.navi ul li {
+    display: inline;
+    margin: 15px 10px 15px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navi ul li button {
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_add {
+    background-color: #F4F6F5;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.front_content {
+    width: 220px;
+    height: 300px;
+    padding: 40px 10px;
+}
+
+.front_content h1 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.front_content p {
+    margin: 10px 0px 15px 10px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.img_add .img1 {
+    width: 330px;
+    margin-right: 10px;
+}
+
+.img_add .img1 img {
+    height: 300px;
+    width: 318px;
+}
+
+.bg_white {
+    background-color: white;
+    height: 38px;
+    width: 160px;
+    rotate: 357deg;
+}
+
+.front_content .h2 {
+    margin-left: 10px;
+    rotate: 3deg;
+    font-weight: 800s;
+}
+
+.h2_ex {
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.bg_yellow {
+    margin-top: -5px;
+    background-color: rgb(230, 201, 14);
+    height: 38px;
+    width: 170px;
+    rotate: 357deg;
+}
+
+.front_content button {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow_logos {
+    background-color: rgb(248 230 115);
+    height: 55px;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.logo_space {
+    margin: 10px 65px;
+    display: flex;
+    gap: 32px;
+}
+
+.img_hm {
+    height: 30px;
+    width: 50px;
+    margin-top: 4px;
+}
+
+.img_obey {
+    height: 35px;
+    width: 60px;
+}
+
+.img_shopify {
+    height: 40px;
+    margin-top: -2px;
+}
+
+.img_lacoste {
+    height: 11px;
+    margin-top: 12px;
+}
+
+.img_levis {
+    height: 45px;
+    margin-top: -4px;
+}
+
+.img_amazon {
+    height: 25px;
+    margin-top: 7px;
+}
+
+.new_arrivals {
+    margin: 40px 50px;
+}
+
+.yellow_leaf {
+    background-color: rgb(248 230 115);
+    height: 20px;
+    width: 70px;
+    margin-top: 43px;
+    margin-left: 94px;
+    border-top-left-radius: 250%;
+    border-bottom-right-radius: 250%;
+    /* rotate: 5deg; */
+}
+
+.h5_na {
+    margin-top: -29px;
+    font-weight: 700;
+}
+
+.na_photos {
+    display: flex;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+.na_pic1 {
+    height: 230px;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.content_space {
+    display: flex;
+    gap: 33px;
+    height: 100px;
+    width: 550px;
+}
+
+.na_content {
+    height: 100px;
+    width: 150px;
+}
+
+.na_mix {
+    display: flex;
+    height: 100px;
+    width: 160px;
+}
+
+.na_content .p1 {
+    font-size: 11px;
+    margin: 20px 0px 0px 0px;
+}
+
+/* 
+.na_icon{
+margin-right: 10px;
+} */
+
+.na_icon i {
+    color: gray;
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.na_content .p2 {
+    color: rgb(40, 40, 40);
+    font-size: 9px;
+    margin: 0px;
+}
+
+/* --------------------------------------WEB OVER-------------------------------------- */
+
+
+
+
+
+/* --------------------------------------APP START-------------------------------------- */
+
+.main_app {
+    height: 855px;
+    width: 390px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.app_yellow1 {
+    /* border: 1px solid black; */
+    background-color: rgb(242 214 77);
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+
+.app_content1 {
+    width: 172px;
+    height: 198px;
+    padding: 40px 10px;
+}
+
+.app_bg_white {
+    background-color: white;
+    height: 29px;
+    width: 108px;
+    rotate: 358deg;
+    margin-top: -10px;
+    margin-left: -6px;
+}
+
+.app_h4 {
+    margin-left: 7px;
+    margin-top: -3px;
+    rotate: 3deg;
+    font-weight: 800s;
+}
+
+.app_h4_ex {
+    font-weight: 800;
+    margin-left: 3px;
+}
+
+.part_1 {
+    margin: 15px 3px;
+}
+
+.app_yellow1_content_p1 {
+    font-size: 7px;
+    margin-bottom: -20px;
+}
+
+.part_2 {
+    margin: 8px 3px;
+}
+
+.app_content1 button {
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-size: 5px;
+    padding: 5px 11px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app_white {
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 384px;
+    width: auto;
+}
+
+.app_heading {
+    position: sticky;
+    margin-top: 16px;
+    width: auto;
+}
+
+.app_yellow_leaf {
+    position: absolute;
+    background-color: rgb(248 230 115);
+    height: 8px;
+    width: 45px;
+    margin-top: -6px;
+    margin-left: 90px;
+    border-top-left-radius: 250%;
+    border-bottom-right-radius: 250%;
+    /* rotate: 5deg;*/
+}
+
+.yf_heading {
+    font-size: 12px;
+    margin: 24px 0px 0px 20px;
+    width: 100%;
+    font-weight: 900;
+}
+
+.app_photos {
+    display: flex;
+    gap: 35px;
+    margin: 15px 27px 0px 27px;
+}
+
+.app_pic {
+    height: 118px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.app_content_space {
+    display: flex;
+    gap: 28px;
+    height: 0px;
+    width: 388px;
+    margin-left: 17px;
+}
+
+.app_mix {
+    display: flex;
+    height: 0px;
+    width: 160px;
+}
+
+.app_content {
+    height: 0px;
+    width: 150px;
+}
+
+.app_content .p1 {
+    font-size: 8px;
+    margin: 7px 0px 0px 9px;
+}
+
+.app_icon i {
+    color: gray;
+    font-size: 8px;
+    margin-top: 13px;
+}
+
+.app_content .p2 {
+    color: rgb(40, 40, 40);
+    font-size: 5px;
+    margin: 0px 0px 0px 10px;
+}
+
+.app_content_mid {
+    display: flex;
+    height: 112px;
+    width: 121px;
+    margin: 85px 35px;
+    gap: 45px;
+}
+
+.content {
+    height: 122px;
+    width: 147px;
+}
+
+.app_dwn {
+    font-size: 10px;
+    font-weight: 700;
+    margin: -2px 0px;
+}
+
+.app_para1 {
+    font-size: 7px;
+    margin: -2px 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.app_para2 {
+    font-size: 7px;
+    margin: -2px 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.sub_pic1 {
+    margin-top: 5px;
+}
+
+.content_img img {
+    height: 190px;
+    width: 200px;
+    margin: -55px 0px 0px 0px;
+}
+
+.app_yellow2 {
+    /* border: 1px solid black; */
+    background-color: rgb(242 214 77);
+    height: 136px;
+    width: auto;
+}
+
+.yf_content1 {
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    padding-top: 28px;
+    margin-bottom: 2px;
+}
+
+.yf_content2 {
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.app_yellow2 .yf_sm_con {
+    color: white;
+    font-size: 7px;
+}
+
+.email_promt {
+    height: 25px;
+    width: 160px;
+    margin-top: -10px;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+}
+
+.email_promt p {
+    font-size: 7px;
+    color : rgb(133, 133, 133);
+    padding: 7px;
+}
+
+.app_yellow2 button{
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    margin: 2px 0px 2px 42px;
+    font-size: 5px;
+    padding: 5px 11px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app_black {
+    /* border: 1px solid black; */
+    background-color: black;
+    height: 119px;
+    width: auto;
+    display:flex;
+}
+
+.social_media{
+    padding: 25px 60px 25px 20px;
+    width: 165px;
+}
+
+.sm_heading{
+    font-size: 10px;
+    color:white;
+    font-weight: 800;
+}
+
+.sm_text{
+    color: white;
+    font-size: 5px;
+    margin: -10px 0px 3px 0px;
+}
+
+.social_media img{
+    height: 20px;
+    width:55px;
+    gap:10px
+}
+
+.company{
+    width:100px;
+    padding :37px 0px;
+}
+
+.company p b{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: 17px;
+    font-weight: 900;
+}
+
+.company p{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: -11px;
+}
+
+.quick{
+    width:100px;
+    padding :37px 0px;
+}
+
+.quick p b{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: 17px;
+    font-weight: 900;
+}
+
+.quick p{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: -11px;
+}
+
+.legal{
+    width:100px;
+    padding :37px 0px;
+}
+
+.legal p b{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: 17px;
+    font-weight: 900;
+}
+
+.legal p{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 6px;
+    margin-top: -11px;
+}
+/* --------------------------------------APP OVER-------------------------------------- */
+
+
+
+
+.blank {
+    background-color: white;
+    width: 100%;
+    height: 270px;
+}
